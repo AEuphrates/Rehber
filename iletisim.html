@@ -6,32 +6,42 @@
     <title>İletişim</title>
 </head>
 <body>
+    <!-- Navigasyon Menüsü -->
     <ul>
         <li><a href="index.html">Ana Sayfa</a></li>
         <li><a href="hakkinda.html">Hakkında</a></li>
         <li><a href="servisler.html">Servisler</a></li>
-     </ul>
-     <h2>Bize nasıl ulaşabilirsiniz?</h2>
-     <p>Nam interdum eros eget urna eleifend tincidunt. Quisque laoreet egestas quam, ut consequat ipsum cursus eu. In lacinia lectus eu lectus fermentum, nec accumsan metus volutpat. Quisque eu magna quis lectus vehicula placerat eu vitae mi. Nam mollis quam at condimentum consectetur. Donec faucibus convallis magna quis lobortis. Praesent viverra porttitor nunc, eu rutrum metus efficitur at. Integer ac rutrum ipsum, at aliquam diam. Aliquam ut ultrices enim, eu ultrices diam</p>
+    </ul>
 
-     <ul>
+    <!-- Başlık -->
+    <h2>Bize nasıl ulaşabilirsiniz?</h2>
+
+    <!-- İletişim Bilgileri Paragrafı -->
+    <p>Nam interdum eros eget urna eleifend tincidunt. Quisque laoreet egestas quam, ut consequat ipsum cursus eu. In lacinia lectus eu lectus fermentum, nec accumsan metus volutpat. Quisque eu magna quis lectus vehicula placerat eu vitae mi. Nam mollis quam at condimentum consectetur. Donec faucibus convallis magna quis lobortis. Praesent viverra porttitor nunc, eu rutrum metus efficitur at. Integer ac rutrum ipsum, at aliquam diam. Aliquam ut ultrices enim, eu ultrices diam.</p>
+
+    <!-- İletişim Bilgileri Listesi -->
+    <ul>
         <li><strong>Adres:</strong> Kraliyet Cad. No: 42, Masal Caddes, Sevimli Mahalle, Çiçekler İlçesi, Peri Şehri, Türkiye</li>
         <li><strong>E-posta:</strong> info@temizlikpro.com</li>
         <li><strong>Telefon:</strong> +90 212 345 67 89</li>
-     </ul>
+    </ul>
 
-     <h2>Formu doldurabilirsiniz</h2>
-     <label for="Ad">Adınız:</label> <br>
-     <input type="text" id="Ad" name="name"> <br>
-     <br>
-     <label for="Soyad">Soyadınız:</label> <br>
-     <input type="text" id="Soyad" name="lname"> <br>
-     <br>
-     <label for="email">E-posta:</label> <br>
-     <input type="email" name="email" id="email"><br>
-     <br>
-     <label for="message">İsteklerinizi belirtiniz</label><br>
-     <textarea name="message" id="message"></textarea>
+    <!-- İletişim Formu -->
+    <h2>Formu doldurabilirsiniz</h2>
+    <form action="submit.php" method="post">
+        <label for="Ad">Adınız:</label> <br>
+        <input type="text" id="Ad" name="name"> <br>
+        <br>
+        <label for="Soyad">Soyadınız:</label> <br>
+        <input type="text" id="Soyad" name="lname"> <br>
+        <br>
+        <label for="email">E-posta:</label> <br>
+        <input type="email" name="email" id="email"><br>
+        <br>
+        <label for="message">İsteklerinizi belirtiniz:</label><br>
+        <textarea name="message" id="message"></textarea><br><br>
+        <input type="submit" value="Gönder">
+    </form>
 
 </body>
 </html>
